@@ -13,7 +13,7 @@ RUN	SCDIR=/tmp/libsafecrypto && \
         mkdir -p ${SCDIR} && \
 	mkdir -p ${TDDIR} && \
         cd ${SCDIR} && \
-        curl -sL https://github.com/safecrypto/libsafecrypto/releases/download/0.2.0-42/safecrypto-0.2.0-42.tar.gz | \
+        curl -sL https://github.com/safecrypto/libsafecrypto/releases/download/0.2.0-52/safecrypto-0.2.0-52.tar.gz | \
         tar -zx --strip-components=1 && \
         autoreconf -fvi && \
         ./configure && \
